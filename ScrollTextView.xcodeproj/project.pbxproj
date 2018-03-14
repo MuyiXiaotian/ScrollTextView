@@ -14,7 +14,6 @@
 		EA64D6B12058CD5F007E0051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA64D6AF2058CD5F007E0051 /* LaunchScreen.storyboard */; };
 		EA64D6B42058CD5F007E0051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6B32058CD5F007E0051 /* main.m */; };
 		EA64D6BC2058CD78007E0051 /* YTSCRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */; };
-		EA64D6BF2058CE33007E0051 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6BE2058CE33007E0051 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		EA64D6B32058CD5F007E0051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSCRTextView.m; sourceTree = "<group>"; };
 		EA64D6BB2058CD78007E0051 /* YTSCRTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSCRTextView.h; sourceTree = "<group>"; };
-		EA64D6BD2058CE33007E0051 /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
-		EA64D6BE2058CE33007E0051 /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +67,6 @@
 				EA64D6A82058CD5F007E0051 /* ViewController.m */,
 				EA64D6BB2058CD78007E0051 /* YTSCRTextView.h */,
 				EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */,
-				EA64D6BD2058CE33007E0051 /* UIView+Layout.h */,
-				EA64D6BE2058CE33007E0051 /* UIView+Layout.m */,
 				EA64D6AA2058CD5F007E0051 /* Main.storyboard */,
 				EA64D6AD2058CD5F007E0051 /* Assets.xcassets */,
 				EA64D6AF2058CD5F007E0051 /* LaunchScreen.storyboard */,
@@ -155,7 +150,6 @@
 				EA64D6A92058CD5F007E0051 /* ViewController.m in Sources */,
 				EA64D6B42058CD5F007E0051 /* main.m in Sources */,
 				EA64D6A62058CD5F007E0051 /* AppDelegate.m in Sources */,
-				EA64D6BF2058CE33007E0051 /* UIView+Layout.m in Sources */,
 				EA64D6BC2058CD78007E0051 /* YTSCRTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
