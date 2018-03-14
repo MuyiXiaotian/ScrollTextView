@@ -13,6 +13,8 @@
 		EA64D6AE2058CD5F007E0051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA64D6AD2058CD5F007E0051 /* Assets.xcassets */; };
 		EA64D6B12058CD5F007E0051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA64D6AF2058CD5F007E0051 /* LaunchScreen.storyboard */; };
 		EA64D6B42058CD5F007E0051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6B32058CD5F007E0051 /* main.m */; };
+		EA64D6BC2058CD78007E0051 /* YTSCRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */; };
+		EA64D6BF2058CE33007E0051 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D6BE2058CE33007E0051 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EA64D6B02058CD5F007E0051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA64D6B22058CD5F007E0051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA64D6B32058CD5F007E0051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSCRTextView.m; sourceTree = "<group>"; };
+		EA64D6BB2058CD78007E0051 /* YTSCRTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSCRTextView.h; sourceTree = "<group>"; };
+		EA64D6BD2058CE33007E0051 /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		EA64D6BE2058CE33007E0051 /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				EA64D6A52058CD5F007E0051 /* AppDelegate.m */,
 				EA64D6A72058CD5F007E0051 /* ViewController.h */,
 				EA64D6A82058CD5F007E0051 /* ViewController.m */,
+				EA64D6BB2058CD78007E0051 /* YTSCRTextView.h */,
+				EA64D6BA2058CD77007E0051 /* YTSCRTextView.m */,
+				EA64D6BD2058CE33007E0051 /* UIView+Layout.h */,
+				EA64D6BE2058CE33007E0051 /* UIView+Layout.m */,
 				EA64D6AA2058CD5F007E0051 /* Main.storyboard */,
 				EA64D6AD2058CD5F007E0051 /* Assets.xcassets */,
 				EA64D6AF2058CD5F007E0051 /* LaunchScreen.storyboard */,
@@ -145,6 +155,8 @@
 				EA64D6A92058CD5F007E0051 /* ViewController.m in Sources */,
 				EA64D6B42058CD5F007E0051 /* main.m in Sources */,
 				EA64D6A62058CD5F007E0051 /* AppDelegate.m in Sources */,
+				EA64D6BF2058CE33007E0051 /* UIView+Layout.m in Sources */,
+				EA64D6BC2058CD78007E0051 /* YTSCRTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22TE42BWD7;
 				INFOPLIST_FILE = ScrollTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.com.ScrollTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +306,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22TE42BWD7;
 				INFOPLIST_FILE = ScrollTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.com.ScrollTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
